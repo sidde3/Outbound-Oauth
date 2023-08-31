@@ -1,0 +1,8 @@
+{
+  "realm": "demo",
+  "auth-server-url": "http://localhost:18080/auth/",
+  "ssl-required": "external",
+  "resource": "sso-servlet-filter",
+  "public-client": true,
+  "confidential-port": 0
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sso-servlet-filter (1) (org.example)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sso-servlet-filter" target="1.8" />
+      <module name="sso-servlet-filter-client" target="11" />
+      <module name="sso-servlet-filter-job" target="11" />
+      <module name="sso-servlet-filter-web" target="11" />
+      <module name="sso-servlet-filter-ws" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sso-servlet-filter (1) (org.example)" options="" />
+      <module name="sso-servlet-filter-job" options="-endorseddirs /Users/sidde/NetBeansProjects/sso-servlet-filter/sso-servlet-filter-job/target/endorsed" />
+      <module name="sso-servlet-filter-web" options="-endorseddirs /Users/sidde/NetBeansProjects/sso-servlet-filter/sso-servlet-filter-web/target/endorsed" />
+      <module name="sso-servlet-filter-ws" options="-endorseddirs /Users/sidde/NetBeansProjects/sso-servlet-filter/sso-servlet-filter-ws/target/endorsed" />
+    </option>
+  </component>
+</project>
